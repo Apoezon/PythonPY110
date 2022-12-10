@@ -7,3 +7,5 @@ if __name__ == "__main__":
     print(task(list_numbers))
 
 # TODO А в чем заключается задание???
+
+# задание решено

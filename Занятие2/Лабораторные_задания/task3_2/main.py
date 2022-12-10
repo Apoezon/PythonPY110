@@ -17,3 +17,5 @@ if __name__ == "__main__":
     some_func("Hello, World!!!")  # всё хорошо
 
     some_func("Short str")  # ValueError("Строка слишком короткая")
+
+# задание решено
