@@ -1,10 +1,5 @@
-def header_footer(fn):  # написать декоратор
-    def wrapper(*args, **kwargs):
-        print("========")
-        result = fn(*args, **kwargs)
-        print("========")
-        return result
-    return wrapper()
+def header_footer():  # TODO написать декоратор
+    ...
 
 
 @header_footer
@@ -13,4 +8,4 @@ def my_func():
 
 
 if __name__ == "__main__":
-    my_func
+    my_func()
