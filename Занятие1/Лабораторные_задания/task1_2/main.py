@@ -12,4 +12,3 @@ def task() -> int:
 
 if __name__ == "__main__":
     print(task())
-    # Решено
