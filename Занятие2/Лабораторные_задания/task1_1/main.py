@@ -6,8 +6,8 @@ def task() -> int:
         "Turquoise",
         "Cyan"
     ]
-
-    return max(...)  # TODO записать выражение-генератор
+    max_gen = (i for i in list_words)
+    return len(max(max_gen))  # записать выражение-генератор
 
 
 if __name__ == "__main__":
