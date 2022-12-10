@@ -11,3 +11,5 @@ def get_text() -> str:
 
 if __name__ == "__main__":
     print(get_text())
+
+# задание решено

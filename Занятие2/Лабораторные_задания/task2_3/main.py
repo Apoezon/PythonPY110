@@ -9,3 +9,5 @@ if __name__ == "__main__":
 
     for _ in range(5):
         print(next(pow_numbers))
+
+# задание решено

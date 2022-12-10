@@ -15,3 +15,5 @@ if __name__ == "__main__":
 
     for _ in range(11):
         print(next(numbers))
+
+# задание решено
