@@ -3,8 +3,9 @@ OUTPUT_FILE = "output.txt"
 
 
 def task():
-    ...  # TODO перезаписать содержимое одного файла в другой
-
+    with open(INPUT_FILE, 'r', encoding='utf-8') as fi, open(OUTPUT_FILE, 'w', encoding='utf-8') as fo: # перезаписать содержимое одного файла в другой
+        for line in map(str.upper, fi):
+            fo.write(line)
 
 if __name__ == "__main__":
     task()

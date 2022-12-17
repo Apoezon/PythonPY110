@@ -13,3 +13,5 @@ def task():
 if __name__ == "__main__":
     result = task()
     print(f"{result:.3f}")
+
+# похоже задачу уже была решена
